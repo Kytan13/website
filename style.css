@@ -22,6 +22,7 @@ html{
     font-size: 30px;
     text-decoration: none;
     font-family: 'Silkscreen', cursive;
+    background: none;
 }
 
 .main{
@@ -107,9 +108,9 @@ body {
 .side-panel-open .sp-icon-close {
     display: initial !important;
 }
-
-a {
+.side-panel a {
     text-decoration: none;
     color: #ffffff;
     background: none;
+    
 }
