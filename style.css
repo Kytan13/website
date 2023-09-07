@@ -11,20 +11,6 @@ html{
     background: transparent
 }
 
-.topnav {
-    text-align: center;
-    background-color: #3DDC97;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.35);
-}
-
-.topnav a {
-    color: #ffffff;
-    font-size: 30px;
-    text-decoration: none;
-    font-family: 'Silkscreen', cursive;
-    background: none;
-}
-
 .main{
     flex-grow: 1;
     text-align: center;
@@ -112,5 +98,21 @@ body {
     text-decoration: none;
     color: #ffffff;
     background: none;
-    
+    display: block;
+}
+
+.links{
+    display: block;
+    background: none;
+    block-size: 50px 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-anchor: middle;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.links:hover {
+    background-color: #3399c2;
 }
